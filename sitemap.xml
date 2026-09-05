@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://monclipcompany.github.io/mon-hiphop/</loc></url>
-  <url><loc>https://github.com/monclipcompany/mon-hiphop/blob/main/news.html</loc></url>
-  <url><loc>https://github.com/monclipcompany/mon-hiphop/blob/main/artists.html</loc></url>
-  <url><loc>https://github.com/monclipcompany/mon-hiphop/blob/main/music.html</loc></url>
-  <url><loc>https://github.com/monclipcompany/mon-hiphop/blob/main/about.html</loc></url>
+  <url><loc>https://monclipcompany.github.io/mon-hiphop/news.html</loc></url>
+  <url><loc>https://monclipcompany.github.io/mon-hiphop/artists.html</loc></url>
+  <url><loc>https://monclipcompany.github.io/mon-hiphop/music.html</loc></url>
+  <url><loc>https://monclipcompany.github.io/mon-hiphop/about.html</loc></url>
 </urlset>

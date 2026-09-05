@@ -295,7 +295,23 @@ function setupMenu() {
   const toggle = $(".menu-toggle");
   const nav = $(".nav");
   if (!toggle || !nav) return;
-  toggle.addEventListener("click", () => nav.classList.toggle("open"));
+  
+  toggle.addEventListener("click", (e) => {
+    e.stopPropagation();
+    nav.classList.toggle("open");
+  });
+  
+  nav.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      nav.classList.remove("open");
+    });
+  });
+  
+  document.addEventListener("click", (e) => {
+    if (!nav.contains(e.target) && !toggle.contains(e.target)) {
+      nav.classList.remove("open");
+    }
+  });
 }
 
 document.addEventListener("DOMContentLoaded", () => {

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MON HIPHOP — Artists</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">MON<span>HIPHOP</span></a>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+    <nav class="nav">
+      <a href="index.html">Home</a><a href="news.html">News</a>
+      <a class="active" href="artists.html">Artists</a><a href="music.html">Music</a><a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="page-head">
+      <p class="eyebrow">MON HIPHOP</p>
+      <h1>Artists</h1>
+      <p>Discover artists, sounds and stories from the culture.</p>
+    </section>
+    <div id="artist-list" class="artist-grid"></div>
+  </main>
+
+  <div id="lightbox-root"></div>
+
+  <footer class="site-footer">
+    <div><strong>MON HIPHOP</strong><span>Independent Hip-Hop Media</span></div>
+    <p>© <span id="year"></span> MON HIPHOP. All rights reserved.</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
